@@ -5,12 +5,12 @@ Package.describe({
   git: "https://github.com/octaviomtc/reaction-search.git"
 });
 
+
 Package.on_use(function (api, where) {
 
   api.use([
     "templating",
     "coffeescript",
-    "iron-router",
     "less",
     "reaction-core"
   ], ["client", "server"]);
