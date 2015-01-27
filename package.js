@@ -1,5 +1,8 @@
 Package.describe({
-  summary: "Reaction Search - Search Feature For Your Reaction Shop"
+  summary: "Reaction Search - Search Feature For Your Reaction Shop",
+  name: "octaviomtc:reaction-search",
+  version: "0.0.1",
+  git: "https://github.com/octaviomtc/reaction-search.git"
 });
 
 Package.on_use(function (api, where) {
