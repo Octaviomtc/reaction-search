@@ -8,12 +8,12 @@ Package.describe({
 
 Package.on_use(function (api, where) {
 
-  api.use([
-    "templating",
-    "coffeescript",
-    "less",
-    "reaction-core"
-  ], ["client", "server"]);
+  api.versionsFrom('METEOR@1.0');
+  api.use("meteor-platform@1.2.1");
+  api.use("templating");
+  api.use("coffeescript");
+  api.use("less");
+  api.use("reactioncommerce:core@0.2.2");
 
   api.add_files([
     "common/register.coffee"
